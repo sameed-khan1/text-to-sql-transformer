@@ -1,0 +1,14 @@
+what is the total population of new York
+City, State, Population, Area, Founded
+
+how many players play for the chicago bull
+Player, No., Nationality, Position, Years in Toronto, School/Club Team
+
+what is the highest number of goals
+Player, Club, Goals, Assists, Appearances
+
+what is the total population of new York
+City, State, Population, Area, Founded
+
+how many points did kobe bryant score
+Player, Points, Assists, Rebounds, Team, Season

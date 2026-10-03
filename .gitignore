@@ -1,0 +1,91 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+
+# ==============================
+# Environment / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Jupyter / IDE
+# ==============================
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# ==============================
+# Trained models / large checkpoints
+# ==============================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# ==============================
+# WikiSQL dataset
+# Keep dataset out of GitHub
+# ==============================
+WikiSQL/data/
+starter/WikiSQL/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Compressed datasets
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+
+# ==============================
+# Generated training/evaluation data
+# ==============================
+starter/*_pairs.jsonl
+starter/*_predictions*.jsonl
+starter/dev_greedy.jsonl
+starter/dev_beam.jsonl
+starter/test_beam.jsonl
+starter/results.json
+starter/spm_corpus.txt
+
+# ==============================
+# Generated plots / images
+# ==============================
+*.png
+*.jpg
+*.jpeg
+
+# ==============================
+# Logs / temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+*.pdf
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Build / packaging
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# Root WikiSQL dataset/repository
+/WikiSQL/
